@@ -1,0 +1,110 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #3d827a;
+  /*background-image: url(./img/05.jpg);*/
+  /*height: 15%;*/
+  padding: 30px;
+  color: white;
+  box-shadow: inset 0 -10px 20px -10px rgba(0, 0, 0, .30);
+  position: relative;
+}
+
+.App-title {
+  font-size: 1.5em;
+
+}
+
+.title {
+  width: 40%
+}
+
+.banner {
+  position: absolute;
+  top: 2em;
+  right: 15%;
+  float: left;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul li {
+  list-style-type: none;
+  float: left;
+  line-height: 16px!important;
+  font-size: 16px!important;
+
+}
+
+.about {
+  color: #FFFFFF;
+  margin-top: 70px;
+  overflow: hidden;
+}
+.self{
+  float: left;
+}
+.skill{
+  /*left: 200px;*/
+  text-align: center;
+}
+.pas{
+  text-align: center;
+  float: left;
+}
+.ui.segment {
+  background: none !important;
+}
+
+#Home {
+  top: 220px;
+  color: #FFFFFF!important;
+  position: relative;
+  margin: 0 auto;
+}
+
+#left {
+  height: 100%;
+  width: 15%;
+  left: 0;
+  /*background-color: #F06292;*/
+  position: relative;
+  float: left;
+
+}
+
+#middle {
+  height: 100%;
+  width: 70%;
+  float: left;
+  /*background-color: #9C27B0;*/
+}
+
+#right {
+  height: 100%;
+  width: 15%;
+  float: left;
+  /*background-color: #F06292;*/
+}
+
+#Home h1 {
+  font-size: 60px;
+}
